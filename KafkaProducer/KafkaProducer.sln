@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProdu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Kafka", "..\Messaging.Kafka\Messaging.Kafka.csproj", "{286FD83A-6C5C-4154-A0F7-5756875DD77B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderProcessingService", "OrderProcessingService", "{9A15F977-77F8-42F8-AD6F-1BF86E006957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCumsumer.Kafka", "MessagingCumsumer.Kafka\MessagingCumsumer.Kafka.csproj", "{9E6FD306-B98D-4B7B-9594-1B9183B01161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingService", "OrderProcessingService\OrderProcessingService.csproj", "{16173C48-109B-4513-90A2-CA371D05E770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{286FD83A-6C5C-4154-A0F7-5756875DD77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{286FD83A-6C5C-4154-A0F7-5756875DD77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{286FD83A-6C5C-4154-A0F7-5756875DD77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6FD306-B98D-4B7B-9594-1B9183B01161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6FD306-B98D-4B7B-9594-1B9183B01161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6FD306-B98D-4B7B-9594-1B9183B01161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6FD306-B98D-4B7B-9594-1B9183B01161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16173C48-109B-4513-90A2-CA371D05E770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16173C48-109B-4513-90A2-CA371D05E770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16173C48-109B-4513-90A2-CA371D05E770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16173C48-109B-4513-90A2-CA371D05E770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E6FD306-B98D-4B7B-9594-1B9183B01161} = {9A15F977-77F8-42F8-AD6F-1BF86E006957}
+		{16173C48-109B-4513-90A2-CA371D05E770} = {9A15F977-77F8-42F8-AD6F-1BF86E006957}
 	EndGlobalSection
 EndGlobal
